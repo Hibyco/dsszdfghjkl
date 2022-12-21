@@ -76,7 +76,7 @@
     height: 50px;
     display: flex;
     align-items: center;
-    width: 120%;
+    width: 100%;
     display: none;
   }
 
@@ -444,10 +444,10 @@ input{
     margin: 0 auto;
   }
   .body-str{
-    min-width: 120%;
+    min-width: 100%;
   }
   .img-back{
-    min-width: 120%;
+    min-width: 100%;
   }
   .button{
     margin-right: 80px;
@@ -473,6 +473,10 @@ input{
   #h1-sec6, #h1-sec5, #h1-sec2, #h1-sec3{
     font-size: 24px;
   }
+  #img1, #img2, #img3{
+    object-fit: contain;
+    max-width: 450px;
+  }
   #h1-sec1{
     font-size: 37px;
   }
@@ -482,9 +486,12 @@ input{
   .blockimg1, .blockimg2, .blockimg3{
     object-fit: scale-down;
   }
+  .img-4, .img-5{
+    max-width: 100%;
+  }
 }
 
-@media (max-width: 768px){
+@media (max-width: 805px){
   .container{
     max-width: 768px;
   }
@@ -493,7 +500,7 @@ input{
   }
   .img-back{
     height: 140px;
-    min-width: 140%;
+    min-width: 100%;
   }
   .menu{
     display: block;
@@ -575,9 +582,9 @@ input{
 }
 }
 
-@media (max-width: 425px){
+@media (max-width: 610px){
   .container{
-    max-width: 420px;
+    max-width: 425px;
   }
   .body-str{
     display: none;
@@ -623,6 +630,7 @@ input{
   #img1, #img2, #img3{
     object-fit: contain;
     max-width: 400px;
+    width: 100%;
   }
   #p-sec1, #p-sec2, #p-sec3, #p-sec5{
     font-size: 16px;
@@ -649,7 +657,7 @@ input{
   input{
     width: 200px;
     min-height: 13px;
-    margin-left: 0px;
+    margin-left: 5px;
   }
   .button{
     min-height: 42px;
@@ -676,8 +684,20 @@ input{
 }
 .send_form{
   flex-direction: row;
+  margin: auto 0;
+  align-items: center;
 }
 .imgblock6{
   flex-direction: column;
+  width: 100%;
+}
+.img-4, .img-5{
+  width: 100%;
+}
+.block1, .block2,.block3, .block4, .block5, .block6{
+ margin: auto 0;
+}
+.text-block1, .text-block2, .text-block3, .text-block5{
+  margin: 25px 2%;
 }
 }
