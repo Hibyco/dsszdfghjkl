@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Morphocode</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/831c52f9d3.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -13,6 +14,11 @@
                     <div class="logo">
                         <img src="img/Logo.png">
                     </div>
+                    <input type="checkbox" id="nav_checkbox" class="nav_checkbox">
+                    <label for="nav_checkbox" class="toggle">
+                        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+                        <div class="close"><i class="fa-solid fa-xmark"></i></div>
+                    </label>
                     <ul class="list">
                         <a herf="#"><li>Academy</li></a>
                         <a herf="#"><li>Blog</li></a>
@@ -30,16 +36,19 @@
                         <p id="p-sec1">Morphocode is a design and development firm that uses data to visualize urban dynamics and provide location insights. Our team brings together expertise across architecture, urban planning, and software engineering.</p>
                     </div>
                     <div class="blockimg1">
-                        <img src="img/Img1.png">
+                        <img src="img/Img1.png" id="img1">
                     </div>
                 </div>
             </div>
         </section>
+        <div class="container">
+            <div class="line_mob"></div>
+        </div>
         <section class="sec-2">
             <div class="container">
                 <div class="block2">
                     <div class="blockimg2">
-                        <img src="img/Img2.png">
+                        <img src="img/Img2.png" id="img2">
                     </div>
                     <div class="text-block2">    
                         <h1 id="h1-sec2">We research, design, and develop</h1>
@@ -47,6 +56,9 @@
                         <a herf="#" id="a-sec2">View Projects</a>
                     </div>
         </section>
+        <div class="container">
+            <div class="line_mob"></div>
+        </div>
         <section class="sec-3">
             <div class="container">
                 <div class="block3">
@@ -56,7 +68,7 @@
                         <a herf="#" id="a-sec3">Start Learning</a>
                     </div>
                     <div class="blockimg3">
-                        <img src="img/Img3.png">
+                        <img src="img/Img3.png" id="img3">
                     </div>
                 </div>
         </section>
@@ -72,7 +84,7 @@
                                 <p class="p-m">Tools augment our problem-solving capacity. We rely on them to expand our minds and provide ease, accuracy, and [...]</p>
                             </div>
                         </div>
-                        <div>
+                        <div class="und1">
                             <img src="img/M4.png" class="img-5">
                             <div class="text-block">
                                 <h1 class="h1-m">The 5-minute walk</h1>
@@ -88,7 +100,7 @@
                                 <p class="p-m">Over the last year, we’ve been working on a new web tool for interactive data exploration [...]</p>
                             </div>
                         </div>
-                        <div>
+                        <div class="und2">
                             <img src="img/M5.png" class="img-5">
                             <div class="text-block">
                                 <h1 class="h1-m">Location + time: urban data visualization</h1>
@@ -104,7 +116,7 @@
                                 <p class="p-m">Urban performance measures help communities make informed decisions and measure results against goals. [...]</p>
                             </div>
                         </div>
-                        <div>
+                        <div class="und3">
                             <img src="img/M6.png" class="img-5">
                             <div class="text-block">
                                 <h1 class="h1-m">Morphocode in the Best American Infographics</h1>
@@ -122,17 +134,19 @@
                         <h1 id="h1-sec5">Start Learning</h1>
                         <p id="p-sec5">Get the latest articles, tutorials, and free resources from Morphocode</p>
                     </div>
-                    <div class="form">
-                        <form action="#">    
-                            <div class="form.cont">
-                                <div class="input">
-                                    <input class="form-input" type="email" placeholder="Enter your email">
+                    <div class="send_form">
+                        <div class="form">
+                            <form action="#">    
+                                <div class="form.cont">
+                                    <div class="input">
+                                        <input class="form-input" type="email" placeholder="Enter your email">
+                                    </div>
                                 </div>
-                            </div>
-                        </form>
-                     </div>
-                    <div id="send">
-                        <button class="button" id="send-b">Subscribe</button>
+                            </form>
+                         </div>
+                        <div id="send">
+                            <button class="button" id="send-b">Subscribe</button>
+                        </div>
                     </div>
                 </div>
             </div>
