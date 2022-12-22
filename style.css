@@ -431,7 +431,7 @@ input{
   max-width: 100%;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1120px){
   .container{
     max-width: 1024px;
     margin: 0 auto;
@@ -484,7 +484,7 @@ input{
   }
 }
 
-@media (max-width: 805px){
+@media (max-width: 840px){
   .container{
     max-width: 768px;
   }
